@@ -15,6 +15,7 @@ public class UserSteps {
     public void setGetApiEndpoint(){
         get.setApiEndpoint();
       }
+
      @When("I send GET HTTP request")
     public void sendGetHttpRequest(){
         get.sendGetHttpRequest();
