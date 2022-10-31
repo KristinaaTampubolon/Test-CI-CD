@@ -24,6 +24,7 @@ public class UserSteps {
     public void receiveValidHttpResponseCode(){
         get.validateHttpResponseCode200();
     }
+
     @And("I receive valid data for detail user")
     public void receiveValidDataForDetailUser(){
         get.validateDataDetailUser();
